@@ -17,6 +17,6 @@ text.match(/^[A-Z].*[a-zA-Z][.?!]$/) ? true : false
 end
 
 def valid_phone_number?(phone)
-  text.match((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}) ? true :false
+  text.match((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4} ? true :false
 
 end
