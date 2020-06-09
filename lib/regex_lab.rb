@@ -13,7 +13,7 @@ text.split.grep(/^\w{5}$/)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-text.
+text.match(/^[A-Z]/)
 end
 
 def valid_phone_number?(phone)
