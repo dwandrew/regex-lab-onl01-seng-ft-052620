@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  puts word
+puts word
 return true if word.match(/^[aeiou]/)
 nil
 end
