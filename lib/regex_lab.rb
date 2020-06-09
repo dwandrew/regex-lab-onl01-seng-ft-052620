@@ -4,7 +4,7 @@ false
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-text.grep(/^un[a-z]+ing$/)
+text.scan(/^un[a-z]+ing$/)
 
 end
 
